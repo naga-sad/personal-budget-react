@@ -2,9 +2,9 @@ import React from 'react';
 
 function HomePage() {
   return (
-    <main class="container center" id="main">
+    <main className="container center" id="main">
 
-        <div class="page-area">
+        <div className="page-area">
             <article>
                 <h1>Stay on track</h1>
                 <p>
@@ -32,11 +32,8 @@ function HomePage() {
     
             <article>
                 <h1>Free</h1>
-                <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                </p>
+
             </article>
-            <div id="pie-chart"></div>
 
     
 
